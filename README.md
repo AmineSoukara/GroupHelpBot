@@ -29,9 +29,7 @@ A big Thanks to SaitamaRobot [One Punch Support](https://t.me/OnePunchSupport)
 
 Another Big thanks [HarukaAya](https://https://t.me/HarukaAyaGroup) for Spamwatch Commits and other Commits
 
-Any other authorship/credits can be seen through the commits.
-
-Another Big thanks [SKYLLEBOT](https://https://t.me/skyleebot) for client introduction . 
+Another Big thanks [Skyleebot](https://https://t.me/skyleebot) for client introduction . 
 
 Force Subscribe Group Memebers to channel . All credits to my friend [Adnan Ahmad](https://t.me/viperadnan)
 
