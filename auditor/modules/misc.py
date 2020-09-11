@@ -266,8 +266,8 @@ def ud(update, context):
 @typing_action
 def src(update, context):
     update.effective_message.reply_text(
-    "Hey there! You can find what makes me click [here](www.github.com/sushantgirdhar/EbruiserBot).",
-     parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
+    "Hey there! You can find what makes me click [here](https://github.com/sushantgirdhar/Auditor_ProBot).",
+     parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=False)
 
 @run_async
 @send_action(ChatAction.UPLOAD_PHOTO)
