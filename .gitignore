@@ -1,0 +1,45 @@
+  
+auditor/config.py
+logfile
+auditor.session
+auditor.session-journal
+*.pyc
+.idea/
+.project
+.pydevproject
+.directory
+.vscode
+okgoogle.png
+*.backup
+sticker.png
+kangsticker.png
+kangsticker.tgs
+kangsticker
+ebruiser.mp3
+gpic.png
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
