@@ -1,5 +1,9 @@
 # AUDITOR PROBOT
 
+> **:warning: We do not support kang!** Developers and maintainers of this bot doesn't have much free time to listen to your crap.
+> You can fork the code, but no technical support will be given if problems arise on your fork.
+> updates channel: <https://t.me/ebruiser>
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
 
