@@ -1,0 +1,138 @@
+{
+   "addons": [
+      {
+         "options": {
+            "version": "9.5"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "description": "Sushant Girdhar Moded bot . A Best Group Management bot.",
+   "env": {
+      "ALLOW_EXCL": {
+         "description": "Set this to True if you want ! to be a command prefix along with /",
+         "value": "True"
+      },
+      "BAN_STICKER": {
+         "description": "ID of the sticker you want to use when banning people.",
+         "required": false,
+         "value": "CAACAgUAAxkBAAEEvR5ezrXMcgsehdPrXeG0pJ4OlDNRFQACjAEAAlHU8jMCYf3-s2bCURkE"
+      },
+      "DEL_CMDS": {
+         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+         "value": "True"
+      },
+      "DONATION_LINK": {
+         "description": "that shit is liscence and stuff ,if you are noob , better leave it linking",
+         "required": false,
+         "value": "https://www.paypal.me/ebruiser"
+      },
+      "ENV": {
+         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+         "value": "ANYTHING"
+      },
+      "SQLALCHEMY_DATABASE_URI": {
+         "description": "Your postgres sql db, empty this field if you dont have one.",
+         "required": false,
+         "value": "sqldbtype://username:pw@hostname:port/db_name"
+      },      
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "value": "792109647"
+      },
+      "OWNER_USERNAME": {
+         "description": "Your username",
+         "value": "sushantgirdhar"
+      },
+      "GBAN_LOGS": {
+         "description": "Gban log channel, include the hyphen too: ex: -123456",
+         "value": "-123"
+      },
+      "CASH_API_KEY": {
+         "description": "Get one from https://www.alphavantage.co/support/#api-key",
+         "value": "-xyz"
+      },
+      "TIME_API_KEY": {
+         "description": "Get one from https://timezonedb.com/register",
+         "value": "-xyz"
+      },
+      "PORT": {
+         "description": "Port to use for your webhooks.",
+         "required": false,
+         "value": "8443"
+      },
+      "STRICT_GBAN": {
+         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+         "value": "True"
+      },
+      "SUDO_USERS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "required": false,
+         "value": "871552081"
+      },
+      "SUPPORT_USERS": {
+         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "required": false,
+         "value": "871552081"
+      },
+      "TIGER_USERS": {
+         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+         "required": false,
+         "value": "871552081"
+      },
+      "TOKEN": {
+         "description": "Your bot token.",
+         "required": true,
+         "value": ""
+      },
+      "SUPPORT_CHAT": {
+         "description": "DO NOT EDIT THIS , IF EDITED , BOT WON'T RUN , GET SOME BRAIN SIR . AFTER THAT DO NOT REPORT TO US ,KEK",
+         "required": false,
+         "value": "@ebruiser"
+      },   
+      "URL": {
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+         "required": false,
+         "value": ""
+      },
+      "WEBHOOK": {
+         "description": "DELETE THIS VAR, AFTER DEPLOYING ",
+         "required": false,
+         "value": "Delete this var after, deploying"
+      },
+       "MESSAGE_DUMP": {
+         "description": "Add bot in group, paste the group ID.",
+         "required": false,
+         "value": ""
+      },
+       "sw_api": {
+         "description": "PASTE THE SPAMWATCH API KEY",
+         "required": false,
+         "value": ""
+      },
+       "WALL_API": {
+         "description": "Get one from https://wall.alphacoders.com/api.php",
+         "required": false,
+         "value": ""
+      },
+       "AI_API_KEY": {
+         "description": "Coffeehouse chatbot api key, get one from https://coffeehouse.intellivoid.info/",
+         "required": false,
+         "value": ""
+      },      
+      "WHITELIST_USERS": {
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "required": false,
+         "value": ""
+      }
+   },
+   "keywords": [
+      "telegram",
+      "weeb",
+      "group",
+      "manager",
+      "EbruiserBot"
+   ],
+   "name": "EbruiserBot",
+   "repository": "https://github.com/sushantgirdhar/EbruiserBot"
+}
