@@ -10,6 +10,31 @@
 
 ![乇乃尺凵工丂乇尺](https://telegra.ph/file/cc52e56bbc02a8c21aadf.png)
 
+## How to setup/deploy.
+
+
+<details>
+  <summary>Steps to deploy on Heroku !! </summary>
+
+```
+Fill in all the details, Deploy!
+Now go to https://dashboard.heroku.com/apps/(app-name)/resources ( Replace (app-name) with your app name )
+Turn on worker dyno (Don't worry It's free :D) & Webhook
+Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
+```
+
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AmineSoukara/GroupHelpBot.git)
+
+</details>  
+<details>
+  <summary>Steps to self Host!! </summary>
+
+Note: This instruction set is just a copy-paste from Marie, note that [乇乃尺凵工丂乇尺](https://t.me/ebruiser) aims to handle support for @ebruiser_bot and not how to set up your own fork. If you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot and not the forks.
+
+  ## Setting up the bot (Read this before trying to use!):
+Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older Python versions!
+This is because markdown parsing is done by iterating through a dict, which is ordered by default in 3.6.
+
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
